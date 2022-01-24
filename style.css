@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #B91450;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-calcolo {
+    height: 250px;
+    width: 900px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.container-biglietto {
+    height: 230px;
+    width: 900px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    padding: 10px 0px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Calcolo */
+.row-1 {
+    height: 130px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.row-2 {
+    height: 130px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.col {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-calcolo {
+    color: #B91450;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input-text {
+    height: 30px;
+    border: 1px solid #B91450;
+    border-radius: 10px;
+}
+
+.select {
+    height: 30px;
+    width: 110px;
+    border: 1px solid #B91450;
+    border-radius: 10px;
+}
+
+.button {
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #B91450;
+}
+/* Calcolo */
+
+/* Biglietto */
+.box-biglietto {
+    width: 95%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.nome-pass {
+    background-color: #808080;
+    width: 270px;
+    height: 150px;
+}
+
+#name {
+    margin-left: 25px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+#name-pass {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.title-biglietto {
+    margin-left: 20px;
+}
+
+.info-biglietto {
+    width: 75%;
+    height: 150px;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    display: flex;
+    justify-content: center;
+}
+
+.col-biglietto {
+    align-self: center;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-biglietto {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.row-3 {
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+/* Biglietto */
