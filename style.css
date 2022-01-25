@@ -32,6 +32,21 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    display: none;
+}
+
+.show {
+    display: block;
+    height: 230px;
+    width: 900px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
 }
 
 .title {
@@ -117,6 +132,11 @@ main {
 }
 
 #name-pass {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.title-name {
     margin-left: 25px;
     margin-top: 25px;
 }

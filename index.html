@@ -18,24 +18,24 @@
             <div class="row-1">
                 <div class="col">
                     <span class="text-calcolo">Nome e Cognome</span>
-                    <input class="input-text" type="text">
+                    <input id="name" class="input-text" type="text">
                 </div>
                 <div class="col">
                     <span class="text-calcolo">Km da percorrere</span>
-                    <input class="input-text" type="number">
+                    <input id="km" class="input-text" type="number">
                 </div>
                 <div class="col">
                     <span class="text-calcolo">Fascia d'età</span>
-                    <select class="select">
-                        <option>Maggiorenne</option>
-                        <option>Over 65</option>
-                        <option>Minorenne</option>
+                    <select id="eta" class="select">
+                        <option value="maggiorenne">Maggiorenne</option>
+                        <option value="over">Over 65</option>
+                        <option value="minorenne">Minorenne</optio>
                     </select>
-                </div>
+                </div>  
             </div>
             <div class="row-2">
-                <input class="button" type="button" value="Genera">
-                <input class="button" type="button" value="Annulla">
+                <input id="genera" class="button" type="button" value="Genera">
+                <input id="annulla" class="button" type="button" value="Annulla">
             </div>
 
         </div>
@@ -43,23 +43,23 @@
 
         <!-- Biglietto -->
         <h1 class="title">IL TUO BIGLIETTO</h1>
-        <div class="container-biglietto">
+        <div id="container-biglietto" class="container-biglietto">
 
             <h2 class="title-biglietto">DETTAGLIO PASSEGGERI</h2>
             <div class="box-biglietto">
                 <div class="nome-pass">
-                    <h2 id="name-pass">Nome Passeggero</h2>
-                    <h3 id="name">Mario rossi</h3>
+                    <h2 class="title-name">Nome Passeggero</h2>
+                    <h3 id="name-pass"></h3>
                 </div>
                 <div class="info-biglietto">
                     <div class="row-3">
                         <div class="col-biglietto">
                             <span class="text-biglietto">Offerta</span>
-                            <span id="offerta">Biglietto standard</span>
+                            <span id="offerta"></span>
                         </div>
                         <div class="col-biglietto">
                             <span class="text-biglietto">Carrozza</span>
-                            <span id="Carrozza">0</span>
+                            <span id="carrozza">0</span>
                         </div>
                         <div class="col-biglietto">
                             <span class="text-biglietto">Codice CP</span>
